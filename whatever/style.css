@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    text-transform: capitalize;
+    color: #ffffff;
+    
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:  #0B0C10;
+    background-image: url(/accets/IMG.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.page1{
+    position: absolute;
+    top: 30%;
+    height: 160%;
+    width: 100%;
+    background-color: #0B0C10;
+    border-radius: 110px 110px 0 0;
+    padding: 114px 82px;
+    color: #ffffff;
+    font-family: Cyberway riders;
+
+}
+
+.character {
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+  
+    
+}
+
+.character img{
+    width: 80%;
+}
+
+
+.pie{
+    position: absolute;
+    z-index: 100;
+   right: 3%;
+   bottom: 10%;
+   
+}
+
+.pie img{
+    width: 80%;
+}
+
+.text{
+    width: 330px;
+}
+
+.text p{
+    font-size: 16px;
+    color: #999DBA;
+    font-weight: 100;
+}
+
+.text h1{
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+.background{
+    z-index: 50;
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+  
+}
+.background img{
+    width: 80%;
+}
+
+.menu{
+    z-index: 90;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 10%;
+}
+.menu img{
+    width: 90%;
+}
+
+.line{
+    position: absolute;
+    z-index: 80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.line img{
+    width: 80%;
+}
+
+.text2{
+
+    position: absolute;
+    z-index: 110;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 22%;
+    text-transform: capitalize;
+    font-family: Cyberway riders;
+   
+
+}
+
+.text2 h1{
+    font-size: 55px;
+    font-weight: 500;
+    
+}
+.text2 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #BBFF1A;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.top-icon{
+    position: absolute;
+    z-index: 200;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    top: 5%;
+    left:5%;
+  
+}
